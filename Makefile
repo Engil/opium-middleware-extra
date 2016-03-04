@@ -13,10 +13,10 @@ lib:
 
 
 install:
-	ocamlfind install opium_middleware_extra META _build/src/*.cma \
-					              _build/src/*.cmxa \
-						      _build/src/*.cmxs \
-						      _build/src/*.cmo \
-						      _build/src/*.cmx \
-						      _build/src/*.cmi
+	ocamlfind install opium_middleware_extra META _build/src/opium_middleware_extra.cma \
+					              _build/src/opium_middleware_extra.cmxa \
+						      _build/src/opium_middleware_extra.cmxs \
+						      _build/src/opium_middleware_extra.cmo \
+						      _build/src/opium_middleware_extra.cmx \
+						      _build/src/opium_middleware_extra.cmi
 .PHONY: 	all clean lib
