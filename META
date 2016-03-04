@@ -1,0 +1,7 @@
+name = "opium_middleware_extra"
+version = "0.1"
+description = "Extra middlewares for Opium"
+requires = "opium"
+archive(byte) = "opium_middleware_extra.cmo"
+archive(native) = "opium_middleware_extra.cmx"
+archive(native,plugin) = "opium_middleware_extra.cmxs"

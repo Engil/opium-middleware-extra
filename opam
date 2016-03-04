@@ -1,0 +1,15 @@
+opam-version: "1"
+version: "0.1"
+name: "opium_middleware_extra"
+maintainer: "Enguerrand Decorne <decorne.en@gmail.com>"
+homepage: ""
+authors: ["Enguerrand Decorne <decorne.en@gmail.com>"]
+doc: ""
+tags: [ "opium" "middleware" ]
+license: "BSD3"
+depends: ["ocamlfind" "opium" "core_kernel" "lwt"]
+ocaml-version: [>= "4.01.0"]
+build:
+[
+  ["make"]
+]
